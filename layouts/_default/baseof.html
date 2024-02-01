@@ -7,13 +7,13 @@
 
   </head>
 
-  <body>
+  <body class="w-fit mx-auto">
     {{ partial "navigation.html" . }}
 
-    <main class="main">
+    <main class="isolate">
       {{ block "main" . }}{{ end }}
     </main>
-    
+
     {{ partial "footer.html" . }}
   </body>
 </html>
